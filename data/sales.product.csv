@@ -1,0 +1,11 @@
+id,name,price,quantity_in_stock
+prod_1,Laptop HP,1500,10
+prod_2,Mouse Logitech,25,50
+prod_3,Keyboard Razer,80,30
+prod_4,Monitor Dell,300,15
+prod_5,USB Drive 64GB,15,100
+prod_6,Webcam HD,50,20
+prod_7,External SSD,120,12
+prod_8,Gaming Chair,250,5
+prod_9,Headset HyperX,90,25
+prod_10,Laptop Stand,35,40
