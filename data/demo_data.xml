@@ -1,0 +1,27 @@
+<odoo>
+    <data noupdate="1">
+        <record id="demo_customer_1" model="sales.customer">
+            <field name="name">Ahmed Mahmoud (Demo)</field>
+            <field name="email">ahmed@example.com</field>
+            <field name="phone">0123456789</field>
+        </record>
+
+        <record id="demo_product_1" model="sales.product">
+            <field name="name">Laptop HP ZBook</field>
+            <field name="price">1500.0</field>
+            <field name="quantity_in_stock">10</field>
+        </record>
+
+        <record id="demo_order_1" model="sales.order">
+            <field name="customer_id" ref="demo_customer_1"/>
+            <field name="order_date" eval="datetime.now().strftime('%Y-%m-%d')"/>
+            <field name="state">draft</field>
+        </record>
+
+        <record id="demo_order_line_1" model="sales.order.line">
+            <field name="order_id" ref="demo_order_1"/>
+            <field name="product_id" ref="demo_product_1"/>
+            <field name="quantity">2</field>
+        </record>
+    </data>
+</odoo>
