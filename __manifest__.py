@@ -9,7 +9,7 @@
         - Manage Orders and Order Lines
     """,
     'author': 'Ahmed Mahmoud',
-    'website': 'https://github.com/ahmeddev-cloud/odoo-sales-system.git'
+    'website': 'https://github.com/ahmeddev-cloud/odoo-sales-system.git',
     'category': 'Sales',
     'depends': ['base'],
     'data': [
